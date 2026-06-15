@@ -1,0 +1,15 @@
+# Core
+ultralytics>=8.2.0      # YOLOv8 training + inference
+roboflow>=1.1.0         # dataset download
+
+# Prototype app
+streamlit>=1.30.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# Exploration / plotting
+matplotlib>=3.7.0
+pyyaml>=6.0
+
+# Note: Google Colab already ships with torch, numpy, matplotlib, opencv, pyyaml.
+# On Colab you typically only need: pip install ultralytics roboflow streamlit

@@ -36,3 +36,4 @@ wandb/
 # Misc large media
 *.mp4
 *.avi
+.DS_Store
